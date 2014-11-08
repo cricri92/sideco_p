@@ -1,0 +1,73 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+  background-color: white;
+}
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+footer {
+  padding-top: 30px;
+}
+#footer
+{
+  text-align:center;
+  padding-top: 30px;
+}
+.container
+{
+  padding-top: 50px;
+ 
+}
+#superior
+{
+  padding-bottom: 20px;
+  width: 100%;
+
+}
+#opciones
+{
+  padding-top: 40px;
+  text-align: center;
+}
+
+#color-t
+{
+  color: black;
+  font-weight: bold;
+}
+
+#color-p
+{
+  background-color:#99CCFF;
+  border-color: #0099EE;
+  color:black;
+  font-weight:bold;
+}
+#color-t1
+{
+  color: black;
+  font-weight: bold;
+}
+
+#color-p
+{
+  background-color:#99CCFF;
+  border-color: #0099EE;
+  color:black;
+  font-weight:bold;
+}
+.navbar
+{
+  background-color: #0099FF;
+  border-color: #0099FF;
+}
+.panel-footer
+{
+  margin-top: 100px;
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Generar solicitud</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="author" content="Rafael">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- Bootstrap core CSS -->
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
+	    <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+	     <script src="js/bootstrap.min.js"></script>
+	    <!-- Custom styles for this template -->
+	    <link href="css/generar_solicitud.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header ">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="panel.html" style="color:black"><span class="glyphicon glyphicon-home"></span>SIDeCo</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color:black">Solicitudes <span class="caret" ></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="generar_solicitud.html">Crear Solicitud</a></li>
+                                <li><a href="solicitudes.html">Habilitar Solicitudes</a></li>
+                                <li><a href="solicitudes.html">Revisar Solicitudes</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color:black">Agenda<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="agenda.html">Crear Agenda</a></li>
+                                <li><a href="agenda.html">Ver Agenda Actual</a></li>
+                                <li><a href="agenda.html">Publicar Agenda</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color:black">Actas<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="acta.html">Generar Acta</a></li>
+                                <li><a href="acta.html">Ver Acta Actual</a></li>
+                                <li><a href="acta.html">Ver Actas Publicadas</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                          <input type="text" class="form-control" placeholder="Ingrese su bùsqueda">
+                        </div>
+                        <button type="submit" class="btn btn-default">Buscar</button>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                    	<ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color:black">Erika Panacare<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="index.html">Cerrar Sesion</a></li>
+                                
+                            </ul>
+                        </li>           
+                    </ul>          
+                	
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+        <img src="img/banner.png" alt="" width="100%">
+    </header>
+        <div class="container">
+	        <hr>
+	            <div class="page-header">
+	            	<h4 align="center"><span class="label label-info"></span>Generar solicitud</h4>
+	            </div>
+	        <hr>
+    	</div>
+		<div class="container">
+            <div class="panel-default">
+            	<div class="col-md-offset-2 col-md-8 col-md-offset-2">
+            		<div class="panel-heading" id="color-t">
+            			<span class="glyphicon glyphicon-info-sign"></span><font id="text-info">&nbsp;INFORMACION: La generacion de solicitudes cierra el 18/10/2014 a las 12:00</font>
+            		</div>
+            	</div>
+            </div>
+			<!--Aqui Comienzo-->
+			<div class="panel-body">
+				<div class="col-md-12">
+					<div class="col-md-offset-2 col-md-8 col-md-offset-2">
+	                    <div class="form-group">
+	                        <label class="col-sm-4 control-label text-right">Nombre</label>
+	                        <div class="col-sm-8"id="ident-t">
+	                            <input type="text" class="form-control" >
+	                        </div>
+	                    </div>
+	                    <br>
+	                    <div class="form-group">
+	                        <label class="col-xs-4 control-label text-right">Apellido</label>
+	                        <div class="col-sm-8"id="ident-t">
+	                           <input type="text" class="form-control">
+	                        </div>
+	                    </div>
+			            <br> 
+	                    <div class="form-group">
+	                        <label class="col-xs-4 control-label text-right">Cédula</label>
+	                        <div class="col-sm-8"id="ident-t">
+	                           <input type="text" class="form-control">
+	                        </div>
+	                    </div>
+	                    <br>
+	                    <div class="form-group">
+	                        <label class="col-xs-4 control-label text-right">Tipo solicitud</label>
+	                        <div class="col-xs-8">
+	                            <select class="form-control" id="solicitud" name="solicitud">
+	                                <option>Estudiantil</option>
+	                                <option>Profesoral</option>
+	                                <option>Preparadores</option>						                           
+	                            </select>
+	                        </div>
+			            </div>
+	                    <br><br>			                    
+		                <div class="form-group">
+				            <label class="col-xs-4 control-label text-right" for="decripcion">Descripcion</label>
+				            <div class="col-xs-8">
+				                	<textarea class="form-control" id="decripcion" name="decripcion" placeholder="Ingrese una descripción de 150 caracteres" rows="5"></textarea>
+						            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<hr>
+	    	
+			<!--Aqui cierro-->
+			<div class="panel-default">
+			   <div class="col-md-12">
+			   		<div class="col-md-offset-2 col-md-8 col-md-offset-2">
+				   		<div class="col">
+					   		<div class="col-xs-6">
+				                <p><a class="btn btn-default btn-block" href="mis_solicitudes.html" role="button"><span class="glyphicon glyphicon-remove"></span><font id="text-b">&nbsp;Cancelar</font></a></p>
+				            </div>
+				            <div class="col-xs-6">
+				            	 <p><a class="btn btn-default btn-block" href="mis_solicitudes.html" role="button"><span class="glyphicon glyphicon-send"></span><font id="text-b">&nbsp;Enviar</font></a></p>
+			            	</div>	
+		            	</div>
+	            	</div>										            
+				</div>
+			</div>
+		</div>
+	    <footer>
+		    <div class="container">
+		        <div class="panel-footer" id="color-p">
+			        <ul >
+			           
+			               
+			           <p id="color-t1"> © Copyright 2014 SIDeCO - Desarrollado por<a href="http://www.facebook.com/rafael1delgado" target="black" id="color-t1">&nbsp;IEAA-soft&nbsp;</a></p>
+			        </ul>
+		        </div>
+		    </div>
+	  	</footer>
+     
+
+  	<!-- Js vinculados -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/responsive.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+
+	</body> 
+</html>

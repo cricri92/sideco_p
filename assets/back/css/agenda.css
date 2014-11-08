@@ -1,0 +1,69 @@
+body 
+{
+  padding-top: 70px;
+  background-color: white;
+}
+.container 
+{
+  padding: 40px 15px;
+  text-align: center;
+}
+.navbar
+{
+	background-color: #0099FF;
+	border-color: #0099FF;
+}
+.nav
+{
+	color: black;
+}
+.menu
+{
+	text-align: left;
+}
+body h2
+{
+	padding-top: 20px;
+	padding-left: 160px;
+}
+header
+{
+	margin-top: 0px;
+	padding-top: 0px;
+	border-image: 0px;
+	border: 0px;
+}
+aside
+{
+	text-align: right;
+}
+ .panel
+ {
+ 	background-color: #F3F3F3;
+ }
+ .container
+ {
+ 	border: 1px solid #f3f3f3;
+ }
+.menu-letras li a 
+{
+	color:white;
+}
+#color-t1
+{
+	color: black;
+  font-weight: bold;
+}
+
+#color-p
+{
+  background-color:#99CCFF;
+  border-color: #0099EE;
+  color:black;
+  font-weight:bold;
+}
+
+.panel-footer
+{
+	margin-top: 210px;
+}

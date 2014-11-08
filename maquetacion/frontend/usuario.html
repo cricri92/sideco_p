@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Usuario</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="author" content="Rafael">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- Bootstrap core CSS -->
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
+	    <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+	     <script src="js/bootstrap.min.js"></script>
+	    <!-- Custom styles for this template -->
+	    <link href="css/usuario.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<img src="img/banner.png" alt="" width="100%">
+		</div>
+		
+		 <header>
+            <div class="container">
+            	<nav class="navbar navbar-default " role="navigation">
+                <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html" id="color-m"><span class="glyphicon glyphicon-home" ></span>  Inicio</a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav" role="navigation">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle " data-toggle="dropdown" id="color-m"><span class="glyphicon glyphicon-list-alt"></span> Solicitudes <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="generar_solicitud.html">Generar solicitud</a></li>
+                                    <li><a href="usuario.html">Mis solicitudes</a></li>
+                                </ul>
+                            </li>                                
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                             <li class="dropdown">
+                                <a href="#" class="dropdown-toggle " data-toggle="dropdown" id="color-m"><span class="glyphicon glyphicon-user"></span> Rafael Delgado<span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Salir</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            	</nav>
+        	</div>
+        </header>
+        <div class="container">
+	        <hr>
+	            <h4 align="center"><span class="label label-info"></span>Mis solicitudes</h4>
+	        <hr>
+    	</div>
+		<div class="container">	
+            <div class="cols-xs-12">
+				<div class="panel panel-default">
+	                    <div class="table-responsive">
+	                        <table class="table preview-table">
+	                            <thead>
+	                                <tr id="color-t">
+	                                    <th>Codigo</th>
+	                                    <th>Tipo</th>
+	                                    <th>Fecha</th>
+	                                    <th>Hora</th>
+	                                    <th>Estatus</th>
+	                                    <th>Enlace</th>
+	                                </tr>
+	                            </thead>
+	                            	<tr>
+	                                    <th><h5>S-011</h5></th>
+	                                    <th><h5>Estudiantil</h5></th>
+	                                    <th><h5>12/10/2014</h></th>
+	                                    <th><h5>13:15</h5></th>
+	                                    <th><h5>Aprobada</h5></th>
+	                                    <th><h5><a href="#">VER</a></h5></th>
+	                                </tr>
+	                                <tr>
+	                                    <th><h5>S-012</h5></th>
+	                                    <th><h5>Pasantia</h5></th>
+	                                    <th><h5>15/10/2014</h></th>
+	                                    <th><h5>20:15</h5></th>
+	                                    <th><h5>Recibida</h5></th>
+	                                    <th><h5><a href="#">VER</a></h5></th>
+	                                </tr>
+	                                <tr>
+	                                    <th><h5>S-075</h5></th>
+	                                    <th><h5>Estudiantil</h5></th>
+	                                    <th><h5>14/02/2014</h></th>
+	                                    <th><h5>06:15</h5></th>
+	                                    <th><h5>Negada</h5></th>
+	                                    <th><h5><a href="#">VER</a></h5></th>
+	                                </tr>
+	                                <tr>
+	                                    <th><h5>S-011</h5></th>
+	                                    <th><h5>Estudiantil</h5></th>
+	                                    <th><h5>12/10/2014</h></th>
+	                                    <th><h5>13:15</h5></th>
+	                                    <th><h5>Recibida</h5></th>
+	                                    <th><h5><a href="#">VER</a></h5></th>
+	                                </tr>
+	                                <tr>
+	                                    <th><h5>S-001</h5></th>
+	                                    <th><h5>Estudiantil</h5></th>
+	                                    <th><h5>13/01/2014</h></th>
+	                                    <th><h5>18:10</h5></th>
+	                                    <th><h5>Negada</h5></th>
+	                                    <th><h5><a href="#">VER</a></h5></th>
+	                                </tr>
+	                        </table>
+	                    </div>                            
+	                </div>
+	            <hr>
+	            </div>
+			</div>
+	    </div>
+
+   <!-- ======== Footer ======== -->
+
+   <footer>
+    <div class="container">
+      <div class="panel-footer" id="color-p">
+        <ul >
+            <p> <a href="mapadelsitio.html" id="color-t1">&nbsp;Mapa del sitio&nbsp;</a> | <a href="index.html" id="color-t1">&nbsp;Inicio&nbsp;</a> | <a href="sideco.html" id="color-t1">&nbsp;SIDeCO&nbsp;</a> | <a href="contacto.html" id="color-t1">&nbsp;Contáctanos&nbsp;</a> | <a href="login.html" id="color-t1">&nbsp;Iniciar sesión&nbsp;</a> 
+            </p>
+               
+           <p id="color-t1"> © Copyright 2014 SIDeCO - Desarrollado por<a href="http://www.facebook.com/rafael1delgado" target="black" id="color-t1">&nbsp;IEAA-soft&nbsp;</a></p>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  	<!-- Js vinculados -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/responsive.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+
+	</body> 
+</html>

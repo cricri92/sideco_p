@@ -1,0 +1,63 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+  background-color: white;
+}
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+}
+footer {
+  padding: 30px 0;
+}
+.container
+{
+  padding-top: 50px;
+  
+}
+.navbar
+{
+  background-color: #0099FF;
+  border-color: #0099FF;
+}
+table th
+{
+	background-color: #4DB8FF;
+}
+table td
+{
+	background-color: #A8DCFF; 
+}
+#color-t1
+{
+	color: black;
+  font-weight: bold;
+}
+
+#color-p
+{
+  background-color:#99CCFF;
+  border-color: #0099EE;
+  color:black;
+  font-weight:bold;
+}
+
+#color-t1
+{
+  color: black;
+  font-weight: bold;
+}
+
+#color-p
+{
+  background-color:#99CCFF;
+  border-color: #0099EE;
+  color:black;
+  font-weight:bold;
+}
+

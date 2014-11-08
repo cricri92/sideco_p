@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base href="<?php echo base_url(); ?>">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Backend - SIDECO</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/offcanvas.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+   <header>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header ">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="panel.html" style="color:black"><span class="glyphicon glyphicon-home"></span>SIDeCo</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Ingrese su bùsqueda">
+                    </div>
+                    <button type="submit" class="btn btn-default">Buscar</button>
+                </form>
+                 
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color:black">Erika Panacare<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="index.html">Cerrar Sesion</a></li>
+                            
+                        </ul>
+                    </li>           
+                </ul>           
+                
+            </div><!-- /.navbar-collapse -->
+        </nav>
+        <img src="img/banner.png" alt="" width="100%">
+    </header>
+    
+    <div id="opciones">
+        <div class="col-md-4 sidebar-offcanvas" role="navigation">
+            <div class="list-group">
+                <a href="solicitudes.html" class="list-group-item active"><span class="glyphicon glyphicon-list-alt"></span><strong> Solicitudes</strong></a>
+                <a href="solicitudes.html" class="list-group-item">Crear Solicitud</a>
+                <a href="solicitudes.html" class="list-group-item">Habilitar Solicitudes</a>
+                <a href="solicitudes.html" class="list-group-item">Revisar Solicitudes</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="list-group">
+                 <a href="agenda.html" class="list-group-item active"><span class="glyphicon glyphicon-list"></span><strong> Agenda</strong></a>
+                <a href="agenda.html" class="list-group-item">Crear Agenda</a>
+                 <a href="agenda.html" class="list-group-item">Ver Agenda Actual</a>
+                <a href="agenda.html" class="list-group-item">Publicar Agenda</a>
+            </div>
+        </div>
+      <div class="col-md-4">
+        <div class="list-group">
+          <a href="acta.html" class="list-group-item active"><span class="glyphicon glyphicon-file"></span><strong> Actas</strong></a>
+          <a href="acta.html" class="list-group-item">Generar Acta</a>
+          <a href="acta.html" class="list-group-item">Ver Acta Actual</a>
+          <a href="acta.html" class="list-group-item">Ver Actas Publicadas</a>
+        </div>
+      </div>
+    </div> 
+   
+      <!-- ======== Footer ======== -->
+
+   <footer>
+    <div class="container">
+      <div class="panel-footer" id="color-p">
+        <ul >
+           <p id="color-t"> © Copyright 2014 SIDeCO - Desarrollado por<a href="http://www.facebook.com/rafael1delgado" target="black" id="color-t">&nbsp;IEAA-soft&nbsp;</a></p>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+     
+
+    <!-- Js vinculados -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/responsive.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+
+  </body> 
+</html>
+    

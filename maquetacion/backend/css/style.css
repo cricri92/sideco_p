@@ -1,0 +1,29 @@
+header{
+	background: gray;
+	height: 200px;
+	width: 100%;
+}
+
+nav
+{
+	color: white;
+	background: black;
+}
+
+section
+{
+	background: yellow;
+	color: brown;
+}
+
+aside
+{
+	background: blue;
+	color: white;
+}
+
+footer
+{
+	border: 10px dashed black;
+
+}
